@@ -1,0 +1,23 @@
+[package]
+name = "assertive"
+# When releasing to crates.io:
+# - Remove path dependencies
+# - Update html_root_url.
+# - Update doc url
+#   - Cargo.toml
+#   - README.md
+# - Update CHANGELOG.md.
+# - Create "v0.1.x" git tag.
+version = "0.1.0"
+edition = "2018"
+authors = ["Carl Lerche <me@carllerche.com>"]
+readme = "README.md"
+documentation = "https://docs.rs/assertive/0.1.0/assertive"
+repository = "https://github.com/carllerche/assertive"
+homepage = "https://github.com/carllerche/assertive"
+license = "MIT"
+description = """
+Collection of assertions
+"""
+
+[dependencies]
